@@ -1,0 +1,17 @@
+// let firstName;
+// firstName = "Dhiraj";
+// console.log(firstName);
+
+let massAayush = 69;
+let heightAayush = 1.69;
+let massDhiraj = 73;
+let heightDhiraj = 1.73;
+
+let BMI_Aayush = massAayush / heightAayush ** 2;   //BMI Formulae;
+let BMI_Dhiraj = massDhiraj / (heightDhiraj * heightDhiraj); //BMI Formulae;
+console.log (BMI_Aayush,BMI_Dhiraj);
+
+if (BMI_Dhiraj > BMI_Aayush)
+console.log (true);
+else
+console.log (false);
